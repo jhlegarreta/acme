@@ -25,9 +25,10 @@ dependencies = [
     "seaborn == 0.11.0",
     "scikit-learn == 1.2.0",
     "scipy == 1.9.0",
-    "dipy",
+    "dipy == 1.7.0",
     "fury == 0.8.0",
     "nibabel == 4.0.0",
+    "scilpy @ git+https://github.com/scilus/scilpy@eb5d3fbe3cb2697a1ea90fe8ea88512e9686802b",
 ]
 description = "ACME"
 dynamic = ["version"]
